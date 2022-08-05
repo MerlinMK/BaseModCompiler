@@ -1,3 +1,4 @@
+---Todo (EASY) : Rearrange like ConfigTrait, 1 line header local details={} then all choices.
 local ProfessionFramework = require "ProfessionFramework"
 
 local type="NameOfTheProfession"
