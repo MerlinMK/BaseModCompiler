@@ -1,11 +1,25 @@
-# Project Zomboid BaseMod
+## Project Zomboid BaseModCompiler
 
-Check the [Github Wiki page](https://github.com/Konijima/PZ-BaseMod/wiki) for all the information about this project.
+The idea is to gather basic mod templates, to make them compatible, and to write a script (in #Builder directory, that I'll call Builder)
+that takes care of merging them in a playable MyModName folder.
+I started and learned a lot from Konijima's [BaseMod](https://github.com/Konijima/PZ-BaseMod) that implements a very nice lua client server interaction,
+allowing a lot of new possibilities (custom events!), in a very clean way.
 
-## Also
+Another big import is from FWolfe's [Profession Framework](https://github.com/FWolfe/ProfessionFramework).
+I just twinked a bit his code to write it in the same spirit as BaseMod.
 
-I suggest you check my tutorial [How to decompile and setup a workspace](https://github.com/Konijima/PZ-Libraries) to create PZ mods efficiently using IntelliJ & Intellisense.
+I was lead through this after searching to make a mod that convert a custom tilesheet sprite into 
+something with more properties than what gives a .tiles, and that is one of the incoming template.
+For the moment, I'm building basic templates from mods and thinking how things should be organized.
 
-## Mods that uses BaseMod
+Thoughts on other README.md
 
-[Random Sound Events](https://github.com/Konijima/PZ-Random-Sound-Events) by Konijima
+## Workspace
+
+I'm using IntelliJ, as in [How to decompile and setup a workspace](https://github.com/Konijima/PZ-Libraries)
+
+## Feel Free
+To help in any way!
+To pick templates to make your mods!
+Discord : VMK#9917
+or @MK Ultra on official PZ discord (modding channel!).
