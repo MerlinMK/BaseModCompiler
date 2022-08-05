@@ -1,4 +1,4 @@
-## Project Zomboid BaseModCompiler
+## Project Zomboid BaseModCompiler (Non functionnal)
 
 The idea is to gather basic mod templates, to make them compatible, and to write a script (in #Builder directory, that I'll call Builder)
 that takes care of merging them in a playable MyModName folder.
