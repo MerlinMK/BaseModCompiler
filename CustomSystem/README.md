@@ -8,8 +8,8 @@ because we can't access it via LuaEventManager.EventList (private).
 So in here, client/server interactions, commands and Moddata organisation.
 This module will always be loaded by the builder.
 ## what moved
-I let ClientEvents.lua and ServerEvents.lua in here because I think Konijima though of these files together,
-but I created a folder CustomCallBacksAndEvents that will contains needed templates.
+I let ClientEvents.lua and ServerEvents.lua in here because they fit well with server/serverModData.lua,
+but I created a folder CustomCallBacksAndEvents that will contains needed data templates.
 I moved the CustomTimedAction tuto and the recipe.lua as future templates.
 I removed a layer of directory Konijima added for assuring compatibility (can be set up in the script).
 
