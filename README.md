@@ -23,3 +23,6 @@ To help in any way!
 To pick templates to make your mods!
 Discord : VMK#9917
 or @MK Ultra on official PZ discord (modding channel!).
+This project is really intended to be collaborative as PZ is just a hobby and I'm just enjoying learning lua doing this.
+And I hope modders will spontaneously share their hard work custom modules, without that the project will stay at its state of
+"me learning lua digging other mods sources" :)
