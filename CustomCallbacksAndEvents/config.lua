@@ -1,0 +1,3 @@
+---
+---Will see later. Inputs are event names, trigger conditions and callback functions.
+---

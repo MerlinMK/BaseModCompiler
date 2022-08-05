@@ -1,0 +1,44 @@
+module Base
+{
+    item BuildGeneratorMagazine
+    {
+        DisplayCategory = SkillBook,
+        Weight	=	0.1,
+        Type	=	Literature,
+        DisplayName	=  Build Your Own Generator,
+        Icon	=	MagazineElectronics02,
+        TeachedRecipes  =   Generator;Build Generator,
+        ReplaceOnUse    =   BuildGeneratorMagazine,
+        StaticModel = Magazine,
+        WorldStaticModel = MagazineElec4Ground,        
+    }
+
+    recipe Build Generator
+    {
+        
+        EmptyPetrolCan,
+        WeldingRods=1,
+        Wire=8,
+        ElectronicsScrap=8,
+        ElectricWire=4,
+        MetalPipe=2,
+        ScrapMetal=4,
+        SheetMetal=2,
+        SmallSheetMetal=4,
+
+        BlowTorch=10,
+
+        keep [Recipe.GetItemTypes.WeldingMask],
+        keep [Recipe.GetItemTypes.Screwdriver],
+        keep [Recipe.GetItemTypes.Hammer],
+        keep Wrench/PipeWrench,
+
+        SkillRequired:Electricity=6;MetalWelding=4;,
+        Result:Generator=1,
+        Time:100.0,
+        Sound:BlowTorch,
+        NeedToBeLearn:true,
+        Category:Electrical,
+    }
+
+}
