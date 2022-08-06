@@ -4,7 +4,7 @@
 * No new global variables, use of BaseMod's localModData.lua(s).
 * any more rule relative to global variables modifications I should follow, lemme know plz!
 
-## Modules structure
+## Modules structure (doesn't apply to BaseMod, aka CustomSystem here)
 
 This organisation is the one I understood from BaseMod, just adding a layer for the boot.
 
